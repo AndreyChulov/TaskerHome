@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia.Desktop" Version="11.3.9" />
+      <PackageReference Include="SkiaSharp.Views.Desktop.Common" Version="3.119.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TaskerHome.Core.Unsafe\TaskerHome.Core.Unsafe.csproj" />
+    </ItemGroup>
+
+</Project>

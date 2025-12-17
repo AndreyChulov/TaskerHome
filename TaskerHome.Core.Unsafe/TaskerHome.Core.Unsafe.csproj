@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="SkiaSharp">
+        <HintPath>..\TaskerHome\bin\Debug\net9.0\SkiaSharp.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
